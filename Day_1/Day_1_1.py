@@ -10,7 +10,7 @@ def calculate_product(vals):
 if __name__ == "__main__":
     nums = []
 
-    with open('input.txt') as f:
+    with open('Day_1/input.txt') as f:
         for line in f:
             nums.append(int(line))
 
